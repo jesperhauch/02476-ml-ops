@@ -11,6 +11,8 @@ COPY requirements.txt requirements.txt
 COPY setup.py setup.py
 COPY src/ src/
 COPY data/ data/
+COPY reports/ reports/
+COPY models/ models/
 
 # Set working directory of container
 WORKDIR /

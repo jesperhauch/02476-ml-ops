@@ -29,9 +29,13 @@ requirements: test_environment
 data: requirements
 	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
 
-## Make Dataset
+## Make training
 train: requirements
 	$(PYTHON_INTERPRETER) src/models/train_model.py data/processed reports/figures
+
+# Make predict for single image
+predict: requirements
+	$(PYTHON_INTERPRETER) src/models/predict_model.py data/processed models/model_checkpoint.pth reports/figures
 
 ## Delete all compiled Python files
 clean:

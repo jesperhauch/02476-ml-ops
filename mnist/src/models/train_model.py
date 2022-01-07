@@ -12,7 +12,7 @@ from torch.utils.data import TensorDataset, DataLoader
 @click.command()
 @click.argument('data_filepath', type=click.Path(exists=True))
 @click.argument('vis_path', type=click.Path(exists=True))
-def train(data_filepath, vis_path, model_path):
+def train(data_filepath, vis_path):
     bs = 64
     # Load model
     model = MyAwesomeModel()
@@ -28,7 +28,7 @@ def train(data_filepath, vis_path, model_path):
     test_set = TensorDataset(test_images, test_labels)
     testloader = DataLoader(test_set, batch_size=bs, shuffle=True)
 
-    epochs = 15
+    epochs = 5
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
@@ -48,14 +48,14 @@ def train(data_filepath, vis_path, model_path):
             # Calculate loss
             train_loss += loss.item()
         else:
-            model.eval()
-            for images, labels in testloader:
-                out = model(images)
-                loss = criterion(out, labels)
-                val_loss += loss.item()
+            with torch.no_grad():
+                for images, labels in testloader:
+                    out = model(images)
+                    loss = criterion(out, labels)
+                    val_loss += loss.item()
 
-                predicted = torch.argmax(out, 1)
-                acc += (predicted == labels).sum()
+                    predicted = torch.argmax(out, 1)
+                    acc += (predicted == labels).sum()
             
             accuracy = acc/(len(testloader)*bs)
             ep.append(e+1)
@@ -95,4 +95,4 @@ if __name__ == "__main__":
     # find .env automagically by walking up directories until it's found, then
     # load up the .env entries as environment variables
     load_dotenv(find_dotenv())
-    train("data/processed", "reports/figures")
+    train()
