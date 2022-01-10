@@ -6,7 +6,7 @@ from src.models.model import MyAwesomeModel
 import pytest
 from tests import _PATH_DATA, _PROJECT_ROOT
 
-data_filepath = _PATH_DATA + "/data/processed"
+data_filepath = _PATH_DATA + "/processed"
 bs = 1
 n_classes = 10
 train_images = torch.load(data_filepath + "/train_images.pt")
