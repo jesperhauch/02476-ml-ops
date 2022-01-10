@@ -5,8 +5,8 @@ from torch.utils.data import DataLoader, TensorDataset
 from src.models.model import MyAwesomeModel
 import torch.optim as optim
 from torch import nn
-
-data_filepath = "data/processed"
+from tests import _PATH_DATA
+data_filepath = _PATH_DATA + "/data/processed"
 bs = 1
 n_classes = 10
 train_images = torch.load(data_filepath + "/train_images.pt")
