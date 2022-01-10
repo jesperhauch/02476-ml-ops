@@ -8,6 +8,7 @@ from src.models.model import MyAwesomeModel
 from src.models import helper
 import matplotlib.pyplot as plt
 
+
 @click.command()
 @click.argument('data_filepath', type=click.Path(exists=True))
 @click.argument('model_filepath', type=click.Path(exists=True))
@@ -29,13 +30,14 @@ def predict(data_filepath, model_filepath, predict_filepath):
     data = iter(trainloader)
     images, _ = next(data)
     img = images[0]
-    
+
     # Convert 2D image to 1D vector
     img = img.view(1, 784)
     with torch.no_grad():
         ps = torch.exp(model.forward(img))
     helper.view_classify(img.view(1, 28, 28), ps, version="MNIST")
     plt.savefig(predict_filepath + "/predicted.png")
+
 
 if __name__ == "__main__":
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

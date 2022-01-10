@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from src.models.model import MyAwesomeModel
 from torch.utils.data import TensorDataset, DataLoader
 
+
 @click.command()
 @click.argument('data_filepath', type=click.Path(exists=True))
 @click.argument('vis_path', type=click.Path(exists=True))
@@ -56,7 +57,7 @@ def train(data_filepath, vis_path):
 
                     predicted = torch.argmax(out, 1)
                     acc += (predicted == labels).sum()
-            
+
             accuracy = acc/(len(testloader)*bs)
             ep.append(e+1)
             training_loss.append(train_loss/(len(trainloader)*bs))
@@ -84,8 +85,6 @@ def train(data_filepath, vis_path):
 
 
 if __name__ == "__main__":
-
-
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     logging.basicConfig(level=logging.INFO, format=log_fmt)
 

@@ -7,6 +7,7 @@ import glob
 import torch
 import numpy as np
 
+
 @click.command()
 @click.argument('input_filepath', type=click.Path(exists=True))
 @click.argument('output_filepath', type=click.Path())
@@ -33,6 +34,7 @@ def main(input_filepath, output_filepath):
     test_labels = torch.Tensor(test_file['labels']).long()
     torch.save(test_images, output_filepath + '/test_images.pt')
     torch.save(test_labels, output_filepath + '/test_labels.pt')
+
 
 if __name__ == '__main__':
     """ Runs file
