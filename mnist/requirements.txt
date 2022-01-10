@@ -1,5 +1,5 @@
 # local package
--e C:\Users\Bruger\OneDrive - Danmarks Tekniske Universitet\Dokumenter\02476-ml-ops\mnist\setup.py
+-e mnist\
 
 # external requirements
 click
