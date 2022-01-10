@@ -1,11 +1,10 @@
-import sys
-sys.path.append(".")
 import torch
 from torch.utils.data import DataLoader, TensorDataset
 from src.models.model import MyAwesomeModel
 import torch.optim as optim
 from torch import nn
 from tests import _PATH_DATA, _PROJECT_ROOT
+
 data_filepath = _PATH_DATA + "/processed"
 bs = 1
 n_classes = 10
@@ -22,7 +21,6 @@ epochs = 5
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
-training_loss, validation_loss, validation_accuracy, ep = [], [], [], []
 for e in range(epochs):
     train_loss = 0.0
     model.train()

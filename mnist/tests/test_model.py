@@ -1,9 +1,6 @@
-import sys
-sys.path.append(".")
 import torch
 from torch.utils.data import DataLoader, TensorDataset
 from src.models.model import MyAwesomeModel
-import pytest
 from tests import _PATH_DATA, _PROJECT_ROOT
 
 data_filepath = _PATH_DATA + "/processed"

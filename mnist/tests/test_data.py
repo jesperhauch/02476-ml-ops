@@ -1,6 +1,7 @@
 import torch
 from torch.utils.data import DataLoader, TensorDataset
 from tests import _PATH_DATA
+
 data_filepath = _PATH_DATA + "/processed"
 bs = 1
 n_classes = 10
