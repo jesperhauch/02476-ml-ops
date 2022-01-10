@@ -5,6 +5,8 @@
 click
 Sphinx
 coverage
+dvc
+dvc[gdrive]
 awscli
 flake8
 matplotlib
