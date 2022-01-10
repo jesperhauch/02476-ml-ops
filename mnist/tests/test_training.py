@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from src.models.model import MyAwesomeModel
 import torch.optim as optim
 from torch import nn
-from tests import _PATH_DATA
+from tests import _PATH_DATA, _PROJECT_ROOT
 data_filepath = _PATH_DATA + "/processed"
 bs = 1
 n_classes = 10
@@ -15,7 +15,7 @@ train_set = TensorDataset(train_images, train_labels)
 trainloader = DataLoader(train_set, batch_size=bs, shuffle=True)
 
 model = MyAwesomeModel()
-state_dict = torch.load("models/model_checkpoint.pth")
+state_dict = torch.load(_PROJECT_ROOT + "/models/model_checkpoint.pth")
 model.load_state_dict(state_dict)
 
 epochs = 5
