@@ -1,0 +1,533 @@
+2022-01-17T11:52:48,328 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-01-17T11:52:48,328 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-01-17T11:52:48,416 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-01-17T11:52:48,416 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-01-17T11:52:48,556 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/jesperhauch/.local/lib/python3.8/site-packages
+Current directory: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 4
+Max heap size: 1524 M
+Python executable: /usr/bin/python3
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/model_store
+Initial Models: N/A
+Log dir: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/logs
+Metrics dir: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 4
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/model_store
+Model config: N/A
+2022-01-17T11:52:48,556 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/jesperhauch/.local/lib/python3.8/site-packages
+Current directory: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 4
+Max heap size: 1524 M
+Python executable: /usr/bin/python3
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/model_store
+Initial Models: N/A
+Log dir: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/logs
+Metrics dir: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 4
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /home/jesperhauch/02476-ml-ops/s8_deployment/exercise_files/model_store
+Model config: N/A
+2022-01-17T11:52:48,570 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-01-17T11:52:48,570 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-01-17T11:52:48,674 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-01-17T11:52:48,674 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-01-17T11:52:48,675 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-01-17T11:52:48,675 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-01-17T11:52:48,678 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-01-17T11:52:48,678 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-01-17T11:52:48,679 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-01-17T11:52:48,679 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-01-17T11:52:48,682 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-01-17T11:52:48,682 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-01-17T11:52:49,072 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642416769
+2022-01-17T11:52:49,077 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7987060546875|#Level:Host|#hostname:JesperPC,timestamp:1642416769
+2022-01-17T11:52:49,077 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368156433105469|#Level:Host|#hostname:JesperPC,timestamp:1642416769
+2022-01-17T11:52:49,082 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642416769
+2022-01-17T11:52:49,095 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4504.01953125|#Level:Host|#hostname:JesperPC,timestamp:1642416769
+2022-01-17T11:52:49,109 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1318.01953125|#Level:Host|#hostname:JesperPC,timestamp:1642416769
+2022-01-17T11:52:49,109 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:26.0|#Level:Host|#hostname:JesperPC,timestamp:1642416769
+2022-01-17T11:53:49,034 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642416829
+2022-01-17T11:53:49,035 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7986946105957|#Level:Host|#hostname:JesperPC,timestamp:1642416829
+2022-01-17T11:53:49,035 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368167877197266|#Level:Host|#hostname:JesperPC,timestamp:1642416829
+2022-01-17T11:53:49,035 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642416829
+2022-01-17T11:53:49,036 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4487.484375|#Level:Host|#hostname:JesperPC,timestamp:1642416829
+2022-01-17T11:53:49,036 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1334.578125|#Level:Host|#hostname:JesperPC,timestamp:1642416829
+2022-01-17T11:53:49,036 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:26.3|#Level:Host|#hostname:JesperPC,timestamp:1642416829
+2022-01-17T11:54:49,048 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642416889
+2022-01-17T11:54:49,049 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7986831665039|#Level:Host|#hostname:JesperPC,timestamp:1642416889
+2022-01-17T11:54:49,050 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368179321289062|#Level:Host|#hostname:JesperPC,timestamp:1642416889
+2022-01-17T11:54:49,050 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642416889
+2022-01-17T11:54:49,051 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4482.44140625|#Level:Host|#hostname:JesperPC,timestamp:1642416889
+2022-01-17T11:54:49,051 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1339.6171875|#Level:Host|#hostname:JesperPC,timestamp:1642416889
+2022-01-17T11:54:49,052 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:26.4|#Level:Host|#hostname:JesperPC,timestamp:1642416889
+2022-01-17T11:55:49,062 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642416949
+2022-01-17T11:55:49,064 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79867553710938|#Level:Host|#hostname:JesperPC,timestamp:1642416949
+2022-01-17T11:55:49,064 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368186950683594|#Level:Host|#hostname:JesperPC,timestamp:1642416949
+2022-01-17T11:55:49,065 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642416949
+2022-01-17T11:55:49,065 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4474.8515625|#Level:Host|#hostname:JesperPC,timestamp:1642416949
+2022-01-17T11:55:49,066 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1347.21484375|#Level:Host|#hostname:JesperPC,timestamp:1642416949
+2022-01-17T11:55:49,066 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:26.5|#Level:Host|#hostname:JesperPC,timestamp:1642416949
+2022-01-17T11:56:49,028 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417009
+2022-01-17T11:56:49,029 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79865646362305|#Level:Host|#hostname:JesperPC,timestamp:1642417009
+2022-01-17T11:56:49,029 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368206024169922|#Level:Host|#hostname:JesperPC,timestamp:1642417009
+2022-01-17T11:56:49,030 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417009
+2022-01-17T11:56:49,030 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4421.3671875|#Level:Host|#hostname:JesperPC,timestamp:1642417009
+2022-01-17T11:56:49,030 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1400.4453125|#Level:Host|#hostname:JesperPC,timestamp:1642417009
+2022-01-17T11:56:49,030 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:27.4|#Level:Host|#hostname:JesperPC,timestamp:1642417009
+2022-01-17T11:57:49,073 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417069
+2022-01-17T11:57:49,073 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79864501953125|#Level:Host|#hostname:JesperPC,timestamp:1642417069
+2022-01-17T11:57:49,074 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368217468261719|#Level:Host|#hostname:JesperPC,timestamp:1642417069
+2022-01-17T11:57:49,074 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417069
+2022-01-17T11:57:49,075 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4629.46484375|#Level:Host|#hostname:JesperPC,timestamp:1642417069
+2022-01-17T11:57:49,076 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1192.33984375|#Level:Host|#hostname:JesperPC,timestamp:1642417069
+2022-01-17T11:57:49,076 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.0|#Level:Host|#hostname:JesperPC,timestamp:1642417069
+2022-01-17T11:58:49,052 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417129
+2022-01-17T11:58:49,053 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79863357543945|#Level:Host|#hostname:JesperPC,timestamp:1642417129
+2022-01-17T11:58:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368228912353516|#Level:Host|#hostname:JesperPC,timestamp:1642417129
+2022-01-17T11:58:49,055 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417129
+2022-01-17T11:58:49,056 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4619.66796875|#Level:Host|#hostname:JesperPC,timestamp:1642417129
+2022-01-17T11:58:49,056 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1202.125|#Level:Host|#hostname:JesperPC,timestamp:1642417129
+2022-01-17T11:58:49,057 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.1|#Level:Host|#hostname:JesperPC,timestamp:1642417129
+2022-01-17T11:59:49,034 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417189
+2022-01-17T11:59:49,035 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79862594604492|#Level:Host|#hostname:JesperPC,timestamp:1642417189
+2022-01-17T11:59:49,036 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368236541748047|#Level:Host|#hostname:JesperPC,timestamp:1642417189
+2022-01-17T11:59:49,036 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417189
+2022-01-17T11:59:49,036 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4611.51953125|#Level:Host|#hostname:JesperPC,timestamp:1642417189
+2022-01-17T11:59:49,037 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1210.27734375|#Level:Host|#hostname:JesperPC,timestamp:1642417189
+2022-01-17T11:59:49,037 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.3|#Level:Host|#hostname:JesperPC,timestamp:1642417189
+2022-01-17T12:00:49,072 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417249
+2022-01-17T12:00:49,073 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79861068725586|#Level:Host|#hostname:JesperPC,timestamp:1642417249
+2022-01-17T12:00:49,074 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.36825180053711|#Level:Host|#hostname:JesperPC,timestamp:1642417249
+2022-01-17T12:00:49,074 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417249
+2022-01-17T12:00:49,075 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4606.9921875|#Level:Host|#hostname:JesperPC,timestamp:1642417249
+2022-01-17T12:00:49,077 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1214.8046875|#Level:Host|#hostname:JesperPC,timestamp:1642417249
+2022-01-17T12:00:49,078 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.3|#Level:Host|#hostname:JesperPC,timestamp:1642417249
+2022-01-17T12:01:49,145 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:100.0|#Level:Host|#hostname:JesperPC,timestamp:1642417309
+2022-01-17T12:01:49,146 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7986068725586|#Level:Host|#hostname:JesperPC,timestamp:1642417309
+2022-01-17T12:01:49,146 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368255615234375|#Level:Host|#hostname:JesperPC,timestamp:1642417309
+2022-01-17T12:01:49,147 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417309
+2022-01-17T12:01:49,147 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4591.9765625|#Level:Host|#hostname:JesperPC,timestamp:1642417309
+2022-01-17T12:01:49,147 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1229.8125|#Level:Host|#hostname:JesperPC,timestamp:1642417309
+2022-01-17T12:01:49,147 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.6|#Level:Host|#hostname:JesperPC,timestamp:1642417309
+2022-01-17T12:02:49,060 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417369
+2022-01-17T12:02:49,063 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79859924316406|#Level:Host|#hostname:JesperPC,timestamp:1642417369
+2022-01-17T12:02:49,063 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368263244628906|#Level:Host|#hostname:JesperPC,timestamp:1642417369
+2022-01-17T12:02:49,063 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417369
+2022-01-17T12:02:49,069 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4591.70703125|#Level:Host|#hostname:JesperPC,timestamp:1642417369
+2022-01-17T12:02:49,069 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1230.078125|#Level:Host|#hostname:JesperPC,timestamp:1642417369
+2022-01-17T12:02:49,070 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.6|#Level:Host|#hostname:JesperPC,timestamp:1642417369
+2022-01-17T12:03:49,076 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:100.0|#Level:Host|#hostname:JesperPC,timestamp:1642417429
+2022-01-17T12:03:49,076 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79858779907227|#Level:Host|#hostname:JesperPC,timestamp:1642417429
+2022-01-17T12:03:49,077 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368274688720703|#Level:Host|#hostname:JesperPC,timestamp:1642417429
+2022-01-17T12:03:49,077 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417429
+2022-01-17T12:03:49,077 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4584.328125|#Level:Host|#hostname:JesperPC,timestamp:1642417429
+2022-01-17T12:03:49,077 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1237.44921875|#Level:Host|#hostname:JesperPC,timestamp:1642417429
+2022-01-17T12:03:49,077 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.7|#Level:Host|#hostname:JesperPC,timestamp:1642417429
+2022-01-17T12:04:49,087 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417489
+2022-01-17T12:04:49,098 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79857635498047|#Level:Host|#hostname:JesperPC,timestamp:1642417489
+2022-01-17T12:04:49,098 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.3682861328125|#Level:Host|#hostname:JesperPC,timestamp:1642417489
+2022-01-17T12:04:49,099 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417489
+2022-01-17T12:04:49,099 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4586.80859375|#Level:Host|#hostname:JesperPC,timestamp:1642417489
+2022-01-17T12:04:49,099 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1234.9921875|#Level:Host|#hostname:JesperPC,timestamp:1642417489
+2022-01-17T12:04:49,099 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.7|#Level:Host|#hostname:JesperPC,timestamp:1642417489
+2022-01-17T12:05:49,039 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417549
+2022-01-17T12:05:49,040 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79856872558594|#Level:Host|#hostname:JesperPC,timestamp:1642417549
+2022-01-17T12:05:49,040 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368293762207031|#Level:Host|#hostname:JesperPC,timestamp:1642417549
+2022-01-17T12:05:49,041 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417549
+2022-01-17T12:05:49,041 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4585.17578125|#Level:Host|#hostname:JesperPC,timestamp:1642417549
+2022-01-17T12:05:49,042 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1236.6171875|#Level:Host|#hostname:JesperPC,timestamp:1642417549
+2022-01-17T12:05:49,042 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.7|#Level:Host|#hostname:JesperPC,timestamp:1642417549
+2022-01-17T12:06:49,030 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417609
+2022-01-17T12:06:49,030 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.7985610961914|#Level:Host|#hostname:JesperPC,timestamp:1642417609
+2022-01-17T12:06:49,031 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368301391601562|#Level:Host|#hostname:JesperPC,timestamp:1642417609
+2022-01-17T12:06:49,031 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417609
+2022-01-17T12:06:49,031 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4584.921875|#Level:Host|#hostname:JesperPC,timestamp:1642417609
+2022-01-17T12:06:49,031 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1236.87109375|#Level:Host|#hostname:JesperPC,timestamp:1642417609
+2022-01-17T12:06:49,032 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.7|#Level:Host|#hostname:JesperPC,timestamp:1642417609
+2022-01-17T12:07:49,039 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417669
+2022-01-17T12:07:49,040 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79855728149414|#Level:Host|#hostname:JesperPC,timestamp:1642417669
+2022-01-17T12:07:49,041 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368305206298828|#Level:Host|#hostname:JesperPC,timestamp:1642417669
+2022-01-17T12:07:49,041 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417669
+2022-01-17T12:07:49,042 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4592.20703125|#Level:Host|#hostname:JesperPC,timestamp:1642417669
+2022-01-17T12:07:49,042 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1229.578125|#Level:Host|#hostname:JesperPC,timestamp:1642417669
+2022-01-17T12:07:49,042 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.6|#Level:Host|#hostname:JesperPC,timestamp:1642417669
+2022-01-17T12:08:49,041 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417729
+2022-01-17T12:08:49,042 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.7985382080078|#Level:Host|#hostname:JesperPC,timestamp:1642417729
+2022-01-17T12:08:49,042 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368324279785156|#Level:Host|#hostname:JesperPC,timestamp:1642417729
+2022-01-17T12:08:49,042 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417729
+2022-01-17T12:08:49,043 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4592.68359375|#Level:Host|#hostname:JesperPC,timestamp:1642417729
+2022-01-17T12:08:49,043 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1229.09765625|#Level:Host|#hostname:JesperPC,timestamp:1642417729
+2022-01-17T12:08:49,043 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.6|#Level:Host|#hostname:JesperPC,timestamp:1642417729
+2022-01-17T12:09:49,034 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417789
+2022-01-17T12:09:49,035 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79852676391602|#Level:Host|#hostname:JesperPC,timestamp:1642417789
+2022-01-17T12:09:49,035 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368335723876953|#Level:Host|#hostname:JesperPC,timestamp:1642417789
+2022-01-17T12:09:49,036 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417789
+2022-01-17T12:09:49,036 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4591.03515625|#Level:Host|#hostname:JesperPC,timestamp:1642417789
+2022-01-17T12:09:49,036 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1230.74609375|#Level:Host|#hostname:JesperPC,timestamp:1642417789
+2022-01-17T12:09:49,036 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.6|#Level:Host|#hostname:JesperPC,timestamp:1642417789
+2022-01-17T12:10:49,060 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417849
+2022-01-17T12:10:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79851913452148|#Level:Host|#hostname:JesperPC,timestamp:1642417849
+2022-01-17T12:10:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368343353271484|#Level:Host|#hostname:JesperPC,timestamp:1642417849
+2022-01-17T12:10:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417849
+2022-01-17T12:10:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4589.4296875|#Level:Host|#hostname:JesperPC,timestamp:1642417849
+2022-01-17T12:10:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1232.35546875|#Level:Host|#hostname:JesperPC,timestamp:1642417849
+2022-01-17T12:10:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.6|#Level:Host|#hostname:JesperPC,timestamp:1642417849
+2022-01-17T12:11:49,060 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417909
+2022-01-17T12:11:49,060 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79851150512695|#Level:Host|#hostname:JesperPC,timestamp:1642417909
+2022-01-17T12:11:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368350982666016|#Level:Host|#hostname:JesperPC,timestamp:1642417909
+2022-01-17T12:11:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417909
+2022-01-17T12:11:49,061 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4587.75|#Level:Host|#hostname:JesperPC,timestamp:1642417909
+2022-01-17T12:11:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1234.04296875|#Level:Host|#hostname:JesperPC,timestamp:1642417909
+2022-01-17T12:11:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.7|#Level:Host|#hostname:JesperPC,timestamp:1642417909
+2022-01-17T12:12:49,057 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642417969
+2022-01-17T12:12:49,058 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79850006103516|#Level:Host|#hostname:JesperPC,timestamp:1642417969
+2022-01-17T12:12:49,058 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368362426757812|#Level:Host|#hostname:JesperPC,timestamp:1642417969
+2022-01-17T12:12:49,059 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642417969
+2022-01-17T12:12:49,059 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4584.82421875|#Level:Host|#hostname:JesperPC,timestamp:1642417969
+2022-01-17T12:12:49,060 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1236.96875|#Level:Host|#hostname:JesperPC,timestamp:1642417969
+2022-01-17T12:12:49,060 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.7|#Level:Host|#hostname:JesperPC,timestamp:1642417969
+2022-01-17T12:13:49,048 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418029
+2022-01-17T12:13:49,048 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79848861694336|#Level:Host|#hostname:JesperPC,timestamp:1642418029
+2022-01-17T12:13:49,049 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.36837387084961|#Level:Host|#hostname:JesperPC,timestamp:1642418029
+2022-01-17T12:13:49,049 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418029
+2022-01-17T12:13:49,049 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4581.1171875|#Level:Host|#hostname:JesperPC,timestamp:1642418029
+2022-01-17T12:13:49,049 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1240.6640625|#Level:Host|#hostname:JesperPC,timestamp:1642418029
+2022-01-17T12:13:49,050 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642418029
+2022-01-17T12:14:49,064 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418089
+2022-01-17T12:14:49,065 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79848098754883|#Level:Host|#hostname:JesperPC,timestamp:1642418089
+2022-01-17T12:14:49,066 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.36838150024414|#Level:Host|#hostname:JesperPC,timestamp:1642418089
+2022-01-17T12:14:49,066 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418089
+2022-01-17T12:14:49,067 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4579.171875|#Level:Host|#hostname:JesperPC,timestamp:1642418089
+2022-01-17T12:14:49,067 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1242.61328125|#Level:Host|#hostname:JesperPC,timestamp:1642418089
+2022-01-17T12:14:49,068 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642418089
+2022-01-17T12:15:49,068 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418149
+2022-01-17T12:15:49,069 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7984733581543|#Level:Host|#hostname:JesperPC,timestamp:1642418149
+2022-01-17T12:15:49,070 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368389129638672|#Level:Host|#hostname:JesperPC,timestamp:1642418149
+2022-01-17T12:15:49,070 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418149
+2022-01-17T12:15:49,070 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4578.2421875|#Level:Host|#hostname:JesperPC,timestamp:1642418149
+2022-01-17T12:15:49,071 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1243.55078125|#Level:Host|#hostname:JesperPC,timestamp:1642418149
+2022-01-17T12:15:49,071 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642418149
+2022-01-17T12:16:49,061 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418209
+2022-01-17T12:16:49,062 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7984619140625|#Level:Host|#hostname:JesperPC,timestamp:1642418209
+2022-01-17T12:16:49,062 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368400573730469|#Level:Host|#hostname:JesperPC,timestamp:1642418209
+2022-01-17T12:16:49,063 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418209
+2022-01-17T12:16:49,063 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4578.48828125|#Level:Host|#hostname:JesperPC,timestamp:1642418209
+2022-01-17T12:16:49,064 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1243.3125|#Level:Host|#hostname:JesperPC,timestamp:1642418209
+2022-01-17T12:16:49,064 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642418209
+2022-01-17T12:17:49,065 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:100.0|#Level:Host|#hostname:JesperPC,timestamp:1642418269
+2022-01-17T12:17:49,066 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79845428466797|#Level:Host|#hostname:JesperPC,timestamp:1642418269
+2022-01-17T12:17:49,066 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368408203125|#Level:Host|#hostname:JesperPC,timestamp:1642418269
+2022-01-17T12:17:49,067 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418269
+2022-01-17T12:17:49,068 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4575.8984375|#Level:Host|#hostname:JesperPC,timestamp:1642418269
+2022-01-17T12:17:49,068 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1245.890625|#Level:Host|#hostname:JesperPC,timestamp:1642418269
+2022-01-17T12:17:49,068 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418269
+2022-01-17T12:18:49,062 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418329
+2022-01-17T12:18:49,063 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79844665527344|#Level:Host|#hostname:JesperPC,timestamp:1642418329
+2022-01-17T12:18:49,063 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368415832519531|#Level:Host|#hostname:JesperPC,timestamp:1642418329
+2022-01-17T12:18:49,063 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418329
+2022-01-17T12:18:49,063 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4579.38671875|#Level:Host|#hostname:JesperPC,timestamp:1642418329
+2022-01-17T12:18:49,064 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1242.3984375|#Level:Host|#hostname:JesperPC,timestamp:1642418329
+2022-01-17T12:18:49,064 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642418329
+2022-01-17T12:19:49,075 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418389
+2022-01-17T12:19:49,076 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79843521118164|#Level:Host|#hostname:JesperPC,timestamp:1642418389
+2022-01-17T12:19:49,076 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368427276611328|#Level:Host|#hostname:JesperPC,timestamp:1642418389
+2022-01-17T12:19:49,076 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418389
+2022-01-17T12:19:49,076 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4573.62890625|#Level:Host|#hostname:JesperPC,timestamp:1642418389
+2022-01-17T12:19:49,076 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1248.1640625|#Level:Host|#hostname:JesperPC,timestamp:1642418389
+2022-01-17T12:19:49,077 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418389
+2022-01-17T12:20:49,054 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418449
+2022-01-17T12:20:49,055 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79842376708984|#Level:Host|#hostname:JesperPC,timestamp:1642418449
+2022-01-17T12:20:49,055 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368438720703125|#Level:Host|#hostname:JesperPC,timestamp:1642418449
+2022-01-17T12:20:49,055 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418449
+2022-01-17T12:20:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4576.6015625|#Level:Host|#hostname:JesperPC,timestamp:1642418449
+2022-01-17T12:20:49,056 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1245.4296875|#Level:Host|#hostname:JesperPC,timestamp:1642418449
+2022-01-17T12:20:49,056 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642418449
+2022-01-17T12:21:49,048 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418509
+2022-01-17T12:21:49,049 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7984161376953|#Level:Host|#hostname:JesperPC,timestamp:1642418509
+2022-01-17T12:21:49,049 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368446350097656|#Level:Host|#hostname:JesperPC,timestamp:1642418509
+2022-01-17T12:21:49,050 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418509
+2022-01-17T12:21:49,050 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4578.09765625|#Level:Host|#hostname:JesperPC,timestamp:1642418509
+2022-01-17T12:21:49,050 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1243.6953125|#Level:Host|#hostname:JesperPC,timestamp:1642418509
+2022-01-17T12:21:49,051 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642418509
+2022-01-17T12:22:49,069 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418569
+2022-01-17T12:22:49,070 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79840850830078|#Level:Host|#hostname:JesperPC,timestamp:1642418569
+2022-01-17T12:22:49,070 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368453979492188|#Level:Host|#hostname:JesperPC,timestamp:1642418569
+2022-01-17T12:22:49,070 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418569
+2022-01-17T12:22:49,070 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4575.21875|#Level:Host|#hostname:JesperPC,timestamp:1642418569
+2022-01-17T12:22:49,071 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1246.55859375|#Level:Host|#hostname:JesperPC,timestamp:1642418569
+2022-01-17T12:22:49,071 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418569
+2022-01-17T12:23:49,053 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418629
+2022-01-17T12:23:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79840087890625|#Level:Host|#hostname:JesperPC,timestamp:1642418629
+2022-01-17T12:23:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368461608886719|#Level:Host|#hostname:JesperPC,timestamp:1642418629
+2022-01-17T12:23:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418629
+2022-01-17T12:23:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4575.3828125|#Level:Host|#hostname:JesperPC,timestamp:1642418629
+2022-01-17T12:23:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1246.40234375|#Level:Host|#hostname:JesperPC,timestamp:1642418629
+2022-01-17T12:23:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418629
+2022-01-17T12:24:49,057 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418689
+2022-01-17T12:24:49,058 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79838943481445|#Level:Host|#hostname:JesperPC,timestamp:1642418689
+2022-01-17T12:24:49,058 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368473052978516|#Level:Host|#hostname:JesperPC,timestamp:1642418689
+2022-01-17T12:24:49,058 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418689
+2022-01-17T12:24:49,059 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4574.80078125|#Level:Host|#hostname:JesperPC,timestamp:1642418689
+2022-01-17T12:24:49,059 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1246.9765625|#Level:Host|#hostname:JesperPC,timestamp:1642418689
+2022-01-17T12:24:49,059 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418689
+2022-01-17T12:25:49,053 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418749
+2022-01-17T12:25:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79838180541992|#Level:Host|#hostname:JesperPC,timestamp:1642418749
+2022-01-17T12:25:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368480682373047|#Level:Host|#hostname:JesperPC,timestamp:1642418749
+2022-01-17T12:25:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418749
+2022-01-17T12:25:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4574.18359375|#Level:Host|#hostname:JesperPC,timestamp:1642418749
+2022-01-17T12:25:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1247.609375|#Level:Host|#hostname:JesperPC,timestamp:1642418749
+2022-01-17T12:25:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418749
+2022-01-17T12:26:49,060 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418809
+2022-01-17T12:26:49,061 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7983741760254|#Level:Host|#hostname:JesperPC,timestamp:1642418809
+2022-01-17T12:26:49,061 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368488311767578|#Level:Host|#hostname:JesperPC,timestamp:1642418809
+2022-01-17T12:26:49,061 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418809
+2022-01-17T12:26:49,062 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4574.78125|#Level:Host|#hostname:JesperPC,timestamp:1642418809
+2022-01-17T12:26:49,062 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1247.00390625|#Level:Host|#hostname:JesperPC,timestamp:1642418809
+2022-01-17T12:26:49,063 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418809
+2022-01-17T12:27:49,058 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418869
+2022-01-17T12:27:49,058 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7983627319336|#Level:Host|#hostname:JesperPC,timestamp:1642418869
+2022-01-17T12:27:49,059 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368499755859375|#Level:Host|#hostname:JesperPC,timestamp:1642418869
+2022-01-17T12:27:49,059 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418869
+2022-01-17T12:27:49,060 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4572.53125|#Level:Host|#hostname:JesperPC,timestamp:1642418869
+2022-01-17T12:27:49,060 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1249.26953125|#Level:Host|#hostname:JesperPC,timestamp:1642418869
+2022-01-17T12:27:49,061 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418869
+2022-01-17T12:28:49,054 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418929
+2022-01-17T12:28:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7983512878418|#Level:Host|#hostname:JesperPC,timestamp:1642418929
+2022-01-17T12:28:49,055 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368511199951172|#Level:Host|#hostname:JesperPC,timestamp:1642418929
+2022-01-17T12:28:49,055 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418929
+2022-01-17T12:28:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4572.26171875|#Level:Host|#hostname:JesperPC,timestamp:1642418929
+2022-01-17T12:28:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1249.5390625|#Level:Host|#hostname:JesperPC,timestamp:1642418929
+2022-01-17T12:28:49,056 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418929
+2022-01-17T12:29:49,054 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642418989
+2022-01-17T12:29:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79834365844727|#Level:Host|#hostname:JesperPC,timestamp:1642418989
+2022-01-17T12:29:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368518829345703|#Level:Host|#hostname:JesperPC,timestamp:1642418989
+2022-01-17T12:29:49,054 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642418989
+2022-01-17T12:29:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4571.171875|#Level:Host|#hostname:JesperPC,timestamp:1642418989
+2022-01-17T12:29:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1250.62109375|#Level:Host|#hostname:JesperPC,timestamp:1642418989
+2022-01-17T12:29:49,055 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642418989
+2022-01-17T12:30:49,059 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419049
+2022-01-17T12:30:49,059 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79833602905273|#Level:Host|#hostname:JesperPC,timestamp:1642419049
+2022-01-17T12:30:49,060 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368526458740234|#Level:Host|#hostname:JesperPC,timestamp:1642419049
+2022-01-17T12:30:49,060 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419049
+2022-01-17T12:30:49,060 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4570.953125|#Level:Host|#hostname:JesperPC,timestamp:1642419049
+2022-01-17T12:30:49,060 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1250.828125|#Level:Host|#hostname:JesperPC,timestamp:1642419049
+2022-01-17T12:30:49,060 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642419049
+2022-01-17T12:31:49,056 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419109
+2022-01-17T12:31:49,056 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7983283996582|#Level:Host|#hostname:JesperPC,timestamp:1642419109
+2022-01-17T12:31:49,056 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368534088134766|#Level:Host|#hostname:JesperPC,timestamp:1642419109
+2022-01-17T12:31:49,057 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419109
+2022-01-17T12:31:49,057 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4573.3984375|#Level:Host|#hostname:JesperPC,timestamp:1642419109
+2022-01-17T12:31:49,057 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1248.38671875|#Level:Host|#hostname:JesperPC,timestamp:1642419109
+2022-01-17T12:31:49,057 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642419109
+2022-01-17T12:32:49,060 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419169
+2022-01-17T12:32:49,060 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.7983169555664|#Level:Host|#hostname:JesperPC,timestamp:1642419169
+2022-01-17T12:32:49,060 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368545532226562|#Level:Host|#hostname:JesperPC,timestamp:1642419169
+2022-01-17T12:32:49,060 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419169
+2022-01-17T12:32:49,061 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4570.66015625|#Level:Host|#hostname:JesperPC,timestamp:1642419169
+2022-01-17T12:32:49,061 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1251.140625|#Level:Host|#hostname:JesperPC,timestamp:1642419169
+2022-01-17T12:32:49,061 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642419169
+2022-01-17T12:33:49,060 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419229
+2022-01-17T12:33:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.79830932617188|#Level:Host|#hostname:JesperPC,timestamp:1642419229
+2022-01-17T12:33:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.368553161621094|#Level:Host|#hostname:JesperPC,timestamp:1642419229
+2022-01-17T12:33:49,061 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419229
+2022-01-17T12:33:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:4573.06640625|#Level:Host|#hostname:JesperPC,timestamp:1642419229
+2022-01-17T12:33:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1248.7109375|#Level:Host|#hostname:JesperPC,timestamp:1642419229
+2022-01-17T12:33:49,062 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642419229
+2022-01-17T12:34:49,065 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419289
+2022-01-17T12:34:49,065 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79829788208008|#Level:Host|#hostname:JesperPC,timestamp:1642419289
+2022-01-17T12:34:49,065 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.36856460571289|#Level:Host|#hostname:JesperPC,timestamp:1642419289
+2022-01-17T12:34:49,066 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419289
+2022-01-17T12:34:49,066 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4576.9765625|#Level:Host|#hostname:JesperPC,timestamp:1642419289
+2022-01-17T12:34:49,066 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1244.80859375|#Level:Host|#hostname:JesperPC,timestamp:1642419289
+2022-01-17T12:34:49,066 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642419289
+2022-01-17T12:35:49,064 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419349
+2022-01-17T12:35:49,064 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.7982940673828|#Level:Host|#hostname:JesperPC,timestamp:1642419349
+2022-01-17T12:35:49,064 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368568420410156|#Level:Host|#hostname:JesperPC,timestamp:1642419349
+2022-01-17T12:35:49,065 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419349
+2022-01-17T12:35:49,065 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4576.484375|#Level:Host|#hostname:JesperPC,timestamp:1642419349
+2022-01-17T12:35:49,065 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1245.30078125|#Level:Host|#hostname:JesperPC,timestamp:1642419349
+2022-01-17T12:35:49,066 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642419349
+2022-01-17T12:36:49,073 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419409
+2022-01-17T12:36:49,074 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79827880859375|#Level:Host|#hostname:JesperPC,timestamp:1642419409
+2022-01-17T12:36:49,074 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368583679199219|#Level:Host|#hostname:JesperPC,timestamp:1642419409
+2022-01-17T12:36:49,074 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419409
+2022-01-17T12:36:49,074 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4575.85546875|#Level:Host|#hostname:JesperPC,timestamp:1642419409
+2022-01-17T12:36:49,075 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1245.921875|#Level:Host|#hostname:JesperPC,timestamp:1642419409
+2022-01-17T12:36:49,075 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.9|#Level:Host|#hostname:JesperPC,timestamp:1642419409
+2022-01-17T12:37:49,064 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419469
+2022-01-17T12:37:49,064 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79827117919922|#Level:Host|#hostname:JesperPC,timestamp:1642419469
+2022-01-17T12:37:49,065 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.36859130859375|#Level:Host|#hostname:JesperPC,timestamp:1642419469
+2022-01-17T12:37:49,065 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419469
+2022-01-17T12:37:49,065 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4576.23828125|#Level:Host|#hostname:JesperPC,timestamp:1642419469
+2022-01-17T12:37:49,066 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1245.546875|#Level:Host|#hostname:JesperPC,timestamp:1642419469
+2022-01-17T12:37:49,066 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:24.8|#Level:Host|#hostname:JesperPC,timestamp:1642419469
+2022-01-17T12:38:49,062 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419529
+2022-01-17T12:38:49,062 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.79825973510742|#Level:Host|#hostname:JesperPC,timestamp:1642419529
+2022-01-17T12:38:49,063 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.368602752685547|#Level:Host|#hostname:JesperPC,timestamp:1642419529
+2022-01-17T12:38:49,063 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:3.9|#Level:Host|#hostname:JesperPC,timestamp:1642419529
+2022-01-17T12:38:49,063 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4505.39453125|#Level:Host|#hostname:JesperPC,timestamp:1642419529
+2022-01-17T12:38:49,063 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1316.3046875|#Level:Host|#hostname:JesperPC,timestamp:1642419529
+2022-01-17T12:38:49,063 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:26.0|#Level:Host|#hostname:JesperPC,timestamp:1642419529
+2022-01-17T12:39:50,774 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419590
+2022-01-17T12:39:50,775 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.61826705932617|#Level:Host|#hostname:JesperPC,timestamp:1642419590
+2022-01-17T12:39:50,775 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.548595428466797|#Level:Host|#hostname:JesperPC,timestamp:1642419590
+2022-01-17T12:39:50,775 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642419590
+2022-01-17T12:39:50,775 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4343.375|#Level:Host|#hostname:JesperPC,timestamp:1642419590
+2022-01-17T12:39:50,775 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1476.25390625|#Level:Host|#hostname:JesperPC,timestamp:1642419590
+2022-01-17T12:39:50,782 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:28.7|#Level:Host|#hostname:JesperPC,timestamp:1642419590
+2022-01-17T12:40:51,157 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419651
+2022-01-17T12:40:51,157 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.61825561523438|#Level:Host|#hostname:JesperPC,timestamp:1642419651
+2022-01-17T12:40:51,157 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.548606872558594|#Level:Host|#hostname:JesperPC,timestamp:1642419651
+2022-01-17T12:40:51,157 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642419651
+2022-01-17T12:40:51,157 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4055.765625|#Level:Host|#hostname:JesperPC,timestamp:1642419651
+2022-01-17T12:40:51,157 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1763.8671875|#Level:Host|#hostname:JesperPC,timestamp:1642419651
+2022-01-17T12:40:51,157 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:33.4|#Level:Host|#hostname:JesperPC,timestamp:1642419651
+2022-01-17T12:41:54,090 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419714
+2022-01-17T12:41:54,109 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.61824798583984|#Level:Host|#hostname:JesperPC,timestamp:1642419714
+2022-01-17T12:41:54,109 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.548614501953125|#Level:Host|#hostname:JesperPC,timestamp:1642419714
+2022-01-17T12:41:54,109 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642419714
+2022-01-17T12:41:54,109 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:3935.06640625|#Level:Host|#hostname:JesperPC,timestamp:1642419714
+2022-01-17T12:41:54,109 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1884.5625|#Level:Host|#hostname:JesperPC,timestamp:1642419714
+2022-01-17T12:41:54,109 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:35.4|#Level:Host|#hostname:JesperPC,timestamp:1642419714
+2022-01-17T12:44:09,401 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419849
+2022-01-17T12:44:09,931 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.61822509765625|#Level:Host|#hostname:JesperPC,timestamp:1642419849
+2022-01-17T12:44:21,726 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.548637390136719|#Level:Host|#hostname:JesperPC,timestamp:1642419849
+2022-01-17T12:44:21,726 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642419849
+2022-01-17T12:44:21,727 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:3825.0703125|#Level:Host|#hostname:JesperPC,timestamp:1642419849
+2022-01-17T12:44:21,729 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1994.5390625|#Level:Host|#hostname:JesperPC,timestamp:1642419849
+2022-01-17T12:44:21,729 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:37.2|#Level:Host|#hostname:JesperPC,timestamp:1642419849
+2022-01-17T12:44:24,327 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:100.0|#Level:Host|#hostname:JesperPC,timestamp:1642419864
+2022-01-17T12:44:24,328 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.61821746826172|#Level:Host|#hostname:JesperPC,timestamp:1642419864
+2022-01-17T12:44:24,328 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.54864501953125|#Level:Host|#hostname:JesperPC,timestamp:1642419864
+2022-01-17T12:44:24,365 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642419864
+2022-01-17T12:44:24,366 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:3784.2109375|#Level:Host|#hostname:JesperPC,timestamp:1642419864
+2022-01-17T12:44:24,368 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2035.58203125|#Level:Host|#hostname:JesperPC,timestamp:1642419864
+2022-01-17T12:44:24,369 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:37.9|#Level:Host|#hostname:JesperPC,timestamp:1642419864
+2022-01-17T12:44:50,391 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419890
+2022-01-17T12:44:50,391 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.6182098388672|#Level:Host|#hostname:JesperPC,timestamp:1642419890
+2022-01-17T12:44:50,391 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.548652648925781|#Level:Host|#hostname:JesperPC,timestamp:1642419890
+2022-01-17T12:44:50,391 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642419890
+2022-01-17T12:44:50,391 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:3754.7265625|#Level:Host|#hostname:JesperPC,timestamp:1642419890
+2022-01-17T12:44:50,391 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2063.46484375|#Level:Host|#hostname:JesperPC,timestamp:1642419890
+2022-01-17T12:44:50,391 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:38.3|#Level:Host|#hostname:JesperPC,timestamp:1642419890
+2022-01-17T12:45:49,121 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642419949
+2022-01-17T12:45:49,127 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.63657760620117|#Level:Host|#hostname:JesperPC,timestamp:1642419949
+2022-01-17T12:45:49,128 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.530284881591797|#Level:Host|#hostname:JesperPC,timestamp:1642419949
+2022-01-17T12:45:49,128 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642419949
+2022-01-17T12:45:49,128 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:3009.3125|#Level:Host|#hostname:JesperPC,timestamp:1642419949
+2022-01-17T12:45:49,128 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2819.6484375|#Level:Host|#hostname:JesperPC,timestamp:1642419949
+2022-01-17T12:45:49,129 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:50.6|#Level:Host|#hostname:JesperPC,timestamp:1642419949
+2022-01-17T12:48:05,961 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420085
+2022-01-17T12:48:08,483 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.63656616210938|#Level:Host|#hostname:JesperPC,timestamp:1642420085
+2022-01-17T12:48:08,483 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.530296325683594|#Level:Host|#hostname:JesperPC,timestamp:1642420085
+2022-01-17T12:48:08,483 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420085
+2022-01-17T12:48:08,483 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:1942.59765625|#Level:Host|#hostname:JesperPC,timestamp:1642420085
+2022-01-17T12:48:08,483 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:3903.58203125|#Level:Host|#hostname:JesperPC,timestamp:1642420085
+2022-01-17T12:48:08,483 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:68.1|#Level:Host|#hostname:JesperPC,timestamp:1642420085
+2022-01-17T12:48:08,893 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420088
+2022-01-17T12:48:08,894 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.6365623474121|#Level:Host|#hostname:JesperPC,timestamp:1642420088
+2022-01-17T12:48:08,895 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.53030014038086|#Level:Host|#hostname:JesperPC,timestamp:1642420088
+2022-01-17T12:48:08,895 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420088
+2022-01-17T12:48:08,895 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:1931.6015625|#Level:Host|#hostname:JesperPC,timestamp:1642420088
+2022-01-17T12:48:08,895 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:3914.5078125|#Level:Host|#hostname:JesperPC,timestamp:1642420088
+2022-01-17T12:48:08,896 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:68.3|#Level:Host|#hostname:JesperPC,timestamp:1642420088
+2022-01-17T12:48:50,126 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420129
+2022-01-17T12:48:50,148 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:228.63655471801758|#Level:Host|#hostname:JesperPC,timestamp:1642420129
+2022-01-17T12:48:50,149 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:9.53030776977539|#Level:Host|#hostname:JesperPC,timestamp:1642420129
+2022-01-17T12:48:50,149 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420129
+2022-01-17T12:48:50,149 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:1721.67578125|#Level:Host|#hostname:JesperPC,timestamp:1642420129
+2022-01-17T12:48:50,149 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:4126.72265625|#Level:Host|#hostname:JesperPC,timestamp:1642420129
+2022-01-17T12:48:50,149 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:71.7|#Level:Host|#hostname:JesperPC,timestamp:1642420129
+2022-01-17T12:50:32,534 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420228
+2022-01-17T12:50:33,748 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.63653945922852|#Level:Host|#hostname:JesperPC,timestamp:1642420228
+2022-01-17T12:50:33,749 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.530323028564453|#Level:Host|#hostname:JesperPC,timestamp:1642420228
+2022-01-17T12:50:33,749 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420228
+2022-01-17T12:50:33,749 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1569.2890625|#Level:Host|#hostname:JesperPC,timestamp:1642420228
+2022-01-17T12:50:33,793 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4283.68359375|#Level:Host|#hostname:JesperPC,timestamp:1642420228
+2022-01-17T12:50:33,794 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:74.2|#Level:Host|#hostname:JesperPC,timestamp:1642420228
+2022-01-17T12:51:05,734 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420265
+2022-01-17T12:51:05,735 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.63652801513672|#Level:Host|#hostname:JesperPC,timestamp:1642420265
+2022-01-17T12:51:05,736 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.53033447265625|#Level:Host|#hostname:JesperPC,timestamp:1642420265
+2022-01-17T12:51:05,747 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420265
+2022-01-17T12:51:05,753 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1498.55859375|#Level:Host|#hostname:JesperPC,timestamp:1642420265
+2022-01-17T12:51:05,754 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4353.44921875|#Level:Host|#hostname:JesperPC,timestamp:1642420265
+2022-01-17T12:51:05,754 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:75.4|#Level:Host|#hostname:JesperPC,timestamp:1642420265
+2022-01-17T12:51:57,037 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420317
+2022-01-17T12:51:57,038 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.63358306884766|#Level:Host|#hostname:JesperPC,timestamp:1642420317
+2022-01-17T12:51:57,039 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.533279418945312|#Level:Host|#hostname:JesperPC,timestamp:1642420317
+2022-01-17T12:51:57,040 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420317
+2022-01-17T12:51:57,041 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1436.3046875|#Level:Host|#hostname:JesperPC,timestamp:1642420317
+2022-01-17T12:51:57,044 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4419.52734375|#Level:Host|#hostname:JesperPC,timestamp:1642420317
+2022-01-17T12:51:57,050 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.4|#Level:Host|#hostname:JesperPC,timestamp:1642420317
+2022-01-17T12:52:54,726 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:100.0|#Level:Host|#hostname:JesperPC,timestamp:1642420374
+2022-01-17T12:52:54,729 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.6172103881836|#Level:Host|#hostname:JesperPC,timestamp:1642420374
+2022-01-17T12:52:54,730 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.549652099609375|#Level:Host|#hostname:JesperPC,timestamp:1642420374
+2022-01-17T12:52:54,732 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420374
+2022-01-17T12:52:54,734 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1411.74609375|#Level:Host|#hostname:JesperPC,timestamp:1642420374
+2022-01-17T12:52:54,734 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4444.4296875|#Level:Host|#hostname:JesperPC,timestamp:1642420374
+2022-01-17T12:52:54,735 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.8|#Level:Host|#hostname:JesperPC,timestamp:1642420374
+2022-01-17T12:54:58,394 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420498
+2022-01-17T12:54:58,401 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.59693145751953|#Level:Host|#hostname:JesperPC,timestamp:1642420498
+2022-01-17T12:54:58,402 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.569931030273438|#Level:Host|#hostname:JesperPC,timestamp:1642420498
+2022-01-17T12:54:58,402 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420498
+2022-01-17T12:54:58,402 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1346.5546875|#Level:Host|#hostname:JesperPC,timestamp:1642420498
+2022-01-17T12:54:58,402 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4510.671875|#Level:Host|#hostname:JesperPC,timestamp:1642420498
+2022-01-17T12:54:58,402 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.9|#Level:Host|#hostname:JesperPC,timestamp:1642420498
+2022-01-17T12:55:04,004 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420504
+2022-01-17T12:55:04,005 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.59668731689453|#Level:Host|#hostname:JesperPC,timestamp:1642420504
+2022-01-17T12:55:04,018 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.570175170898438|#Level:Host|#hostname:JesperPC,timestamp:1642420504
+2022-01-17T12:55:04,019 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420504
+2022-01-17T12:55:04,020 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1320.25390625|#Level:Host|#hostname:JesperPC,timestamp:1642420504
+2022-01-17T12:55:04,021 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4536.96484375|#Level:Host|#hostname:JesperPC,timestamp:1642420504
+2022-01-17T12:55:04,022 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:78.3|#Level:Host|#hostname:JesperPC,timestamp:1642420504
+2022-01-17T12:56:22,958 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420582
+2022-01-17T12:56:22,959 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.58739471435547|#Level:Host|#hostname:JesperPC,timestamp:1642420582
+2022-01-17T12:56:22,959 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.5794677734375|#Level:Host|#hostname:JesperPC,timestamp:1642420582
+2022-01-17T12:56:22,959 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420582
+2022-01-17T12:56:22,959 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1178.95703125|#Level:Host|#hostname:JesperPC,timestamp:1642420582
+2022-01-17T12:56:22,959 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4671.95703125|#Level:Host|#hostname:JesperPC,timestamp:1642420582
+2022-01-17T12:56:22,960 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:80.6|#Level:Host|#hostname:JesperPC,timestamp:1642420582
+2022-01-17T12:56:50,439 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:JesperPC,timestamp:1642420610
+2022-01-17T12:56:50,439 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:228.69448471069336|#Level:Host|#hostname:JesperPC,timestamp:1642420610
+2022-01-17T12:56:50,439 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:9.47237777709961|#Level:Host|#hostname:JesperPC,timestamp:1642420610
+2022-01-17T12:56:50,439 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:4.0|#Level:Host|#hostname:JesperPC,timestamp:1642420610
+2022-01-17T12:56:50,439 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:4483.38671875|#Level:Host|#hostname:JesperPC,timestamp:1642420610
+2022-01-17T12:56:50,439 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1377.01953125|#Level:Host|#hostname:JesperPC,timestamp:1642420610
+2022-01-17T12:56:50,439 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:26.4|#Level:Host|#hostname:JesperPC,timestamp:1642420610

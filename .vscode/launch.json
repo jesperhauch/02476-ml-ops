@@ -7,9 +7,10 @@
         {
             "name": "Python: Current File",
             "type": "python",
-            "cwd": "${workspaceFolder}/mnist",
             "request": "launch",
             "program": "${file}",
+            "cwd": "${workspaceFolder}/s7_scalable",
+            "args": ["-error_barplot"],
             "console": "integratedTerminal"
         }
     ]
