@@ -1,7 +1,25 @@
 mnist
 ==============================
 
-Exercises done in the course 02476 Machine Learning Operations
+**M5 Git**\
+I've used `git` in other courses and for work, so I feel like I already had the hang of this.
+
+**M6 Code Structure**\
+I used `cookiecutter` to generate the structure of this folder as indicated by the Project Organization chart below.
+I love having a standardized structure to work in and I will definitely be using it in future projects. I think it is a major advantage in terms of reproduceability.
+
+**M7 Good Coding Practice**\
+I haven't ever though of `pep8` compliance when writing code previously. It's something I'll have in mind, but I especially appreciated the autolinting Nicki showcased during the lecture.
+
+**M8 Data Version Control**\
+I have yet to experience the advantages of using DVC. I've found it to be rather unstable during our project work and most of my projects concern a static dataset.
+It is definitely something I'll have to explore further.
+
+**M9 Docker**\
+I think Docker has been a really difficult subject for me to understand fully. It was good experience to write the `.dockerfile` though and I'm sure I'll see more to Docker in the future.
+
+**M15 Continuous Integration**\
+It was pretty interesting to generate coverage and write the unit tests on the code. In this session, I had a lot of issues getting the Github Actions workflows to work. I got the workflow with `isort` up and running, but the others are still failing to this day.
 
 Project Organization
 ------------
