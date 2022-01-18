@@ -1,9 +1,9 @@
 # 02476-ml-ops Exercises
-This repository contains the exercises I have coded throughout the 02476 Machine Learning Operations course.  
+This repository contains the exercises I have coded throughout the 02476 Machine Learning Operations course. Under each subfolder to the root directory, I have provided a `README` file to detail my work further.
 Below I will provide an overview of the extent I have finished the exercises in the different sessions:
 - S1: Getting Started
-  - M1: Not documented, but completed. Led me to use WSL2 for the entirety of the course, which has been a great tool.
-  - M3: Not documented, but completed. I've used VS Code for other courses and work, so I continued using it for this course.
+  - M1: Not documented, but completed.
+  - M3: Not documented, but completed.
   - M4: Documented in `s1_getting_started`.
 - S2: Organization and Version Control
   - M5 & M6: Used to create the repository and structure of the `mnist` folder.
